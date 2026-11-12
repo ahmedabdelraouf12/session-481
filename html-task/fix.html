@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix</title>
+  </head>
+  <body>
+    <!-- Mistake 1: the closing tag was <h1> instead of </h1> -->
+    <h1>My Favorite Food</h1>
+
+    <!-- Mistake 2: wrong nesting, </p> was closed before </strong> -->
+    <p>I love <strong>pizza</strong></p>
+
+    <!-- Mistake 3: a new line in the code does not show in the page, it needs <br> -->
+    <p>Line one<br>
+    Line two</p>
+
+    <!-- Mistake 4: the image had no alt attribute -->
+    <img src="pizza.jpg" alt="A slice of pizza">
+    <img src="./images/photo.jpg" alt="A slice of pizza">
+
+    <!-- Mistake 5: the < sign inside the text must be written as the entity &lt; -->
+    <p>Price &lt; 100 EGP</p>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+      table, th, td { border: 1px solid black; border-collapse: collapse; padding: 6px; }
+    </style>
+  </head>
+  <body>
+    <h1>Tables</h1>
+
+    <table>
+      <caption>Students Grades</caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>HTML</th>
+          <th>CSS</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ahmed</td>
+          <td>90</td>
+          <td>85</td>
+          <td>175</td>
+        </tr>
+        <tr>
+          <td>Sara</td>
+          <td>95</td>
+          <td>90</td>
+          <td>185</td>
+        </tr>
+        <tr>
+          <td>Omar</td>
+          <td>80</td>
+          <td>75</td>
+          <td>155</td>
+        </tr>
+        <tr>
+          <td>Mona</td>
+          <td>85</td>
+          <td>90</td>
+          <td>175</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Average</td>
+          <td>87.5</td>
+          <td>85</td>
+          <td>172.5</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <br>
+
+    <table>
+      <tr>
+        <th>Day</th>
+        <th colspan="2">Sessions</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Saturday</td>
+        <td>HTML</td>
+        <td>CSS</td>
+      </tr>
+      <tr>
+        <td>Lab</td>
+        <td>Quiz</td>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td colspan="2">Project</td>
+      </tr>
+    </table>
+  </body>
+</html>
